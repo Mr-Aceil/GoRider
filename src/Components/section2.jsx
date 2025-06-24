@@ -3,10 +3,10 @@ import Tags from './tags'
 import Cards from './section2Cards'
 
 export default function section2() {
-    const img2= "bg-[url('../../src/assets/HomeImages/section2/Img2.png')]"
-    const img3= "bg-[url('../../src/assets/HomeImages/section2/Img3.png')]"
-    const tbg2= "bg-[url('../../src/assets/HomeImages/section2/tbg2.png')]"
-    const tbg3= "bg-[url('../../src/assets/HomeImages/section2/tbg3.png')]"
+    const img2= "bg-[url('../src/assets/HomeImages/section2/Img2.png')]"
+    const img3= "bg-[url('../src/assets/HomeImages/section2/Img3.png')]"
+    const tbg2= "bg-[url('../src/assets/HomeImages/section2/tbg2.png')]"
+    const tbg3= "bg-[url('../src/assets/HomeImages/section2/tbg3.png')]"
 
     return (
         <>
@@ -39,7 +39,7 @@ export default function section2() {
                 <p className='text-h3 font-bold text-center'>All services for you in a single app</p>
             </div>
 
-            <section className='out  jcenter bg-[url("../../src/assets/HomeImages/section2bg.png")] bg-no-repeat bg-contain max-[1600px]:bg-cover bg-center out jcenter icenter '>
+            <section className='out  jcenter bg-[url("../src/assets/HomeImages/section2bg.png")] bg-no-repeat bg-contain max-[1600px]:bg-cover bg-center out jcenter icenter '>
                 <div className='in2 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] 
                                 max-[310px]:flex 
                                 max-[310px]:flex-col

@@ -28,7 +28,7 @@ export default function section1() {
                     <Tags name='Lesser time span'/>
                 </div>
 
-                <div className="flex flex-col p-Image1p rounded-[20px] border-[3px] border-white border-solid  w-full max-w-[1000px] bg-[url('../../src/assets/HomeImages/mainImage.png')] bg-center bg-no-repeat bg-cover icenter gap-2">
+                <div className="flex flex-col p-Image1p rounded-[20px] border-[3px] border-white border-solid  w-full max-w-[1000px] bg-[url('../src/assets/HomeImages/mainImage.png')] bg-center bg-no-repeat bg-cover icenter gap-2">
                     <div className='flex flex-col h-[300px] between w-full'>
                         <h2 className='text-h2 font-[800] bg-bgblur p-smallgap backdrop-blur-[10px] rounded-[20px]'>Deliver packages <span className="text-textsecondary section1span no-wrap">whenever to where ever</span> you want with us 24/7
                         </h2>

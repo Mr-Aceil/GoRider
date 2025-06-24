@@ -5,7 +5,7 @@ import Iphone from '../../src/assets/HomeImages/section4/iphone.png'
 
 export default function section4() {
     return (
-        <section className='out icenter jcenter bg-[url("../../src/assets/HomeImages/section4/sec4bg.png")] bg-fixed bg-cover bg-no-repeat bg-center'>
+        <section className='out icenter jcenter bg-[url("../src/assets/HomeImages/section4/sec4bg.png")] bg-cover bg-no-repeat bg-center'>
             <div className='in flex-col p-section icenter jcenter gap-6'>
                 <Tag name='Our App' icons=''/>
 
