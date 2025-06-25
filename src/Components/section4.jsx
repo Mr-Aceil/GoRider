@@ -47,8 +47,8 @@ export default function section4() {
                     <div className='gap-3 flex flex-col
                                     max-[900px]:text-center max-[900px]:items-center max-[900px]:justify-center rounded-[20px]'>
                         <h2 className='text-h2 font-bold'>The GoRider Safty Pact</h2>
-                        <h3 className='text-h3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis maiores assumenda maxime laudantium eveniet eos a earum dolorum fugit impedit amet, exercitationem magni perferendis quisquam, quidem tempora. Maxime, non aspernatur.</h3>
-                        <Button bg='bg-backgroundp w-fit' textColor='text-textmain'/>
+                        <h3 className='text-h3'>Safety is a shared promise between customers, delivery partners and GoRider. This 4-way pact ensures eveery delivery is protected, reliable, trusted and certified. Each person plays a role- from clear instructions to professional consuct to platform support. Look for the GoRider Verified Badge as a mark of trusted, trained and verified delivery partners. Together, we keep eveery order on the right track.</h3>
+                        <Button name='Coming soon' bg='bg-backgroundp w-fit' textColor='text-textmain'/>
                     </div>
 
                     <img src={Verify} className='w-[300px] max-[900px]:hidden' alt="Verified" />

@@ -23,11 +23,9 @@ export default function Fotter() {
                     
                     <div className='flex flex-col gap-smallgap text-textmain'>
                         <p href="#" className='text-p font-bold'>Socials</p>
-                        <a href="#" className='text-p'>Instagram</a>
-                        <a href="#" className='text-p'>Twitter</a>
-                        <a href="#" className='text-p'>Facebook</a>
-                        <a href="#" className='text-p'>Linkedin</a>
-                        <a href="#" className='text-p'>Whatsapp</a>
+                        <a href="https://www.instagram.com/gorider.inc?igsh=YzljYTk1ODg3Zg==" target='_blank' className='text-p'>Instagram</a>
+                        <a href="https://x.com/Gorider_Inc" target='_blank' className='text-p'>Twitter</a>
+                        <a href="https://www.facebook.com/profile.php?id=61577293847990" target='_blank' className='text-p'>Facebook</a>
                     </div>
                     
                     <div className='flex flex-col gap-smallgap text-textmain'>

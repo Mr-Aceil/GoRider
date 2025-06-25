@@ -16,7 +16,7 @@ export default function section1() {
                 <div className='flex gap-smallgap 
                                 max-[370px]:flex-col
                                 max-[370px]:w-full'>
-                    <Button name='Deliver now' others='border-1 border-solid border-white' bg='bg-transparent' textColor='text-textmain'/>
+                    <Button link='http://wa.link/04k83f' name='Deliver now' others='border-1 border-solid border-white' bg='bg-transparent hover:bg-textash hover:text-textsecondary' textColor='text-textmain'/>
                     <Button name='Join waitlist'/>
                 </div>
 
