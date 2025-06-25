@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 
 export default function QandAnswer({q='Add Question', ans='Add answer'}) {
-    const [faqOpen, setIsFaqOpen]= useState(false)
+    const [faqOpen, setIsFaqOpen]= useState(true)
     const open = ()=>{
         setIsFaqOpen(!faqOpen)
     }
@@ -17,7 +17,7 @@ export default function QandAnswer({q='Add Question', ans='Add answer'}) {
                 {trigger}
             </div>
 
-            <p className={`bg-white p-2 rounded-[20px] w-full icenter jcenter ${faqOpen ? 'hidden' : 'flex'}`}>{ans}</p>
+            <p className={`bg-white p-2 rounded-[20px] w-full icenter ${faqOpen ? 'hidden' : 'flex'}`}>{ans}</p>
         </div>
     )
 }

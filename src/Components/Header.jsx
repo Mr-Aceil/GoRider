@@ -24,7 +24,8 @@ export default function Header() {
                     <Button icon={web} name='EN'/>
                 </div>
 
-                <div className='hidden max-[1040px]:block'>
+                <div className='hidden max-[1040px]:flex gap-1'>
+                    <Button icon={web} name='EN'/>
                     {hamburger}
 
                     <div className={`bg-bgblur fixed h-full w-full backdrop-blur-[10px] top-0 right-0 z-10 ${Hamburger ? 'translate-x-full' : 'translate-x-0'} transition-transform duration-300 ease-in-out`}>
@@ -37,7 +38,7 @@ export default function Header() {
                                 <Pages others='flex-col '/>
                             </div>
                             
-                            <Button/>
+                            <Button name='Join us'/>
                         </div>
                     </div>
                 </div>

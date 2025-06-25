@@ -114,3 +114,7 @@
 .p60{
   @apply pt-[60px]
 }
+
+a{
+  @apply text-textash hover:text-textmain
+}
