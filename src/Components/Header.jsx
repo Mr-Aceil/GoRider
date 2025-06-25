@@ -17,7 +17,7 @@ export default function Header() {
         <header className="out items-center justify-center p-header">
             <nav className='in items-center justify-between'>
                 <img src={Logo} alt="Our logo" className='w-[100px]' />
-                <Pages />
+                <Pages  others='justify-center items-center max-[1040px]:hidden'/>
                 <div className=' flex items-center justify-center gap-smallgap
                                 max-[1040px]:hidden'>
                     <Button name='Join the waitlist'/>
@@ -28,10 +28,15 @@ export default function Header() {
                     {hamburger}
 
                     <div className={`bg-bgblur fixed h-full w-full backdrop-blur-[10px] top-0 right-0 z-10 ${Hamburger ? 'translate-x-full' : 'translate-x-0'} transition-transform duration-300 ease-in-out`}>
-                        <div className='h-full w-full max-w-[300px] bg-backgroundp fixed top-0 right-0 p-3'>
-                            {cancel}
+                        <div className='h-full w-full between flex flex-col max-w-[300px] bg-backgroundp fixed top-0 right-0 p-3'>
+                            <div className='w-full flex flex-col gap-2'>
+                                <div className='flex items-center justify-end'>
+                                    {cancel}
+                                </div>
 
-                            <Pages/>
+                                <Pages others='flex-col '/>
+                            </div>
+                            
                             <Button/>
                         </div>
                     </div>

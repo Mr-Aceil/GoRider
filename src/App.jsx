@@ -4,6 +4,8 @@ import Section1 from './Components/section1'
 import Section2 from './Components/section2' 
 import Section3 from './Components/section3'
 import Section4 from './Components/section4'
+import Fotter from './Components/Fotter'
+import Faq from './Components/FAQ'
 
 export default function App() {
     return (
@@ -15,6 +17,8 @@ export default function App() {
         <Section2 />
         <Section3 />
         <Section4 />
+        <Faq />
+        <Fotter />
         </>
     )
 }

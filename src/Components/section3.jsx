@@ -9,7 +9,7 @@ export default function section3() {
     return (
         <section className='out icenter jcenter bg-backgroundw'>
             <div className='in icenter jcenter flex-col p-section gap-6'>
-                <div className='flex flex-col icenter jcenter max1k'>
+                <div className='flex flex-col icenter jcenter max1k gap-smallgap'>
                     <Tags name='Our Goals' icons=''/>
                     <p className='text-h3 font-bold text-center text-textsecondary'>Goals that keeps us focused <span className='bg-[url("../src/assets/HomeImages/section3/textbgpng.png")] bg-no-repeat text-textmain '>on being our best.</span></p>
                 </div>

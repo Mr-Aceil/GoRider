@@ -2,9 +2,11 @@ import React from 'react'
 import Tag from './tags'
 import Button from './Button'
 import Iphone from '../../src/assets/HomeImages/section4/iphone.png'
+import Verify from '../../src/assets/HomeImages/section5/Trust2.png'
 
 export default function section4() {
     return (
+        <>
         <section className='out icenter jcenter bg-[url("../src/assets/HomeImages/section4/sec4bg.png")] bg-cover bg-no-repeat bg-center'>
             <div className='in flex-col p-section icenter jcenter gap-6'>
                 <Tag name='Our App' icons=''/>
@@ -24,5 +26,35 @@ export default function section4() {
                 </div>
             </div>
         </section>
+
+        <section className='out icenter jcenter bg-backgroundw'>
+            <section className='in flex-col p-section icenter jcenter gap-6'>
+                <div className='flex flex-col icenter jcenter max1k gap-smallgap'>
+                    <Tag name='GoRider Assure' icons=''/>
+                    <p className='text-h3 font-bold text-center text-textsecondary'>Trusted. Insured.  <span className='bg-[url("../src/assets/HomeImages/section3/textbgpng.png")] bg-no-repeat text-textmain '>Verified for safety</span></p>
+                </div>
+
+                <div className='flex items-stretch text-textsecondary bg-backgroundw shadow-[3px_3px_10px_#00000027] border-1 border-solid border-[#cecece] icenter max1-6k p-6 gap-4 
+                                max-[900px]:flex-col
+                                max-[900px]:icenter
+                                max-[761px]:p-2
+                                max-[900px]:jcenter rounded-[20px]'>
+                    <img src={Verify} className='hidden 
+                                                max-[900px]:w-[full]
+                                                max-[900px]:max-w-[100px]
+                                                max-[900px]:block' alt="Verified" />
+
+                    <div className='gap-3 flex flex-col
+                                    max-[900px]:text-center max-[900px]:items-center max-[900px]:justify-center rounded-[20px]'>
+                        <h2 className='text-h2 font-bold'>The GoRider Safty Pact</h2>
+                        <h3 className='text-h3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis maiores assumenda maxime laudantium eveniet eos a earum dolorum fugit impedit amet, exercitationem magni perferendis quisquam, quidem tempora. Maxime, non aspernatur.</h3>
+                        <Button bg='bg-backgroundp w-fit' textColor='text-textmain'/>
+                    </div>
+
+                    <img src={Verify} className='w-[300px] max-[900px]:hidden' alt="Verified" />
+                </div>
+            </section>
+        </section>
+        </>
     )
 }
